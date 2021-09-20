@@ -22,8 +22,8 @@ title: Michael Song's Research Projects
 email: michaelsong828@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A combination and extending of AP computer science, AP Calculus BC, AP Physics C classes and AI.
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/research_projects" # the subpath of your site, e.g. /blog
+url: "https://felikemath.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: felikemath
 # github_username:  felikemath
 
