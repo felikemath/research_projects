@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# The Modernist theme
 
-You can use the [editor on GitHub](https://github.com/felikemath/research_projects/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my independent research project webpage!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Learning never stops at the classroom and is never limited by individual coursework. In fact, it brings so much fun when we link them together, otherwise impossible, and apply them to our daily life to create some interesting outputs. During my junior year at high school, I took AP computer science, AP Calculus BC, AP Physics C and have also been volunteering in teaching Python classes for 3 years at [SVY](https://www.siliconvalleyyouth.com/classes.html) (a non-profit organization dedicated to help underprivileged communities). In this summer with the challenging pandemic situation, I did several independent projects that are applications of a combination of the knowledge gained from these classes and experiences, and the field of my interest for future exploration. Here are the projects:
 
-### Markdown
+*   [Project #1: Graphic animation of projectile with and without air resistance.]() In addition to simulation of the motions, instantaneous real-time locations, velocities, mechanical energies and travel distances are also monitored through the animation. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*   [Project #2: Graphic animation of earth-to-mars spacecraft trajectory along the Hohmann transfer orbit, together with moves of the earth and mars around the sun.]() Again, elapsed flight time, traveled distance, instantaneous speed, and instantaneous distances from the spacecraft to the earth, mars and sun are monitored through the animation. 
 
-```markdown
-Syntax highlighted code block
+*   [Project #3: Multi-bouncing-ball game](). This game simulates collision between multiple moving balls of different size and mass, between the balls and walls, and between the balls and the bat. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/felikemath/research_projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+*   [Project #4: Mobile application of handwriting recognition based on deep learning neuro network.]() This project includes multiple tasks: 1) build 4 CNN-based neuro networks (namely the simple, intermediate I, intermediate II, and advanced networks) of different convolution kernels, different ways of doing down-sampling, with and without BatchNorms, DropOut, data augmentation, etc. 2) Investigate their impact on the accuracy of recognition; 3) build a backend server using flask; and 4) build a frontend application for both mobile and desktop versions. 
