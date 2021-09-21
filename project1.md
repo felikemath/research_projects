@@ -142,3 +142,4 @@ We observed a few differences between the two scenarios.
 In this independent project, I explored the impact of air resistance on projectiles beyond what was covered in our AP physics classroom. This exploration involved in building a model based on Physics, solving differential equations using math, and making vivid animations using computer programming. The visualized results provide us a view and sense different from textbook. It is a fun and interesting project that anyone can do! 
 
 <br/>
+<br/>

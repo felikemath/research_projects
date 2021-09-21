@@ -193,5 +193,6 @@ The following figures show comparisons of the digit recognition results between 
 In this project, I developed a complete mobile application of an AI-based handwriting digit recognition, including building 4 models of different complexities, training and saving the models, building the backend micro-web-server, and writing the frontend mobile application. Evaluation of these models demonstrated how the modules and techniques (such as BatchNormalization, DropOut, Convolution, Data Augmentation) play roles in neuron networks.
 
 <br/>
+<br/>
 
 
