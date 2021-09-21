@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Michael Song's Research Projects
+title: <a href="http://felikemath.github.io/research_projects/index.html">Michael Song's Research Projects</a>
 email: michaelsong828@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A combination and extending of AP computer science, AP Calculus BC, AP Physics C classes and AI.

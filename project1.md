@@ -12,14 +12,14 @@ June, 2021
 ## Introduction
 Projectiles are very common in our daily life, such as throwing a water-balloon, shooting a basketball, shot put, etc. From my AP physics class, I learned that the motion of projectiles has a parabolic trajectory when air resistance is negligible, but we never explored the scenario containing air resistance. This project demonstrates the effect of air resistance on the motion of projectiles through the visualizations of 2-d projectiles in Python. Click here to jump to see the animation result.
 
-Click [here](#_results) to jump to see the animation result.
+Click [**<span style="color:blue">here</span>**](#_results) to jump to see the animation result.
 
 ## Objectives 
 The objectives of this projects include
 •	To animate the motion of projectiles with and without considering air resistance. 
 •	To compute and compare instantaneous locations, velocities, travel distances and energies. 
 ## Methods
-### 1.	Physics and Math
+#### 1.	Physics and Math
 It is well known that air resistance depends on the speed, shape and size of projectiles, density of air, and some other factors. Therefore, it can be a complex phenomenon to study and measure. In this project, we simplify the model by assuming that the drag force of air resistance is proportional to the speed of the projectile and always opposite to the direction of its velocity 
 
 <div class="alert alert-secondary equation">
@@ -111,7 +111,7 @@ It is well known that air resistance depends on the speed, shape and size of pro
 
 <p>The kinetic, potential, and total mechanic energies can be computed using the instantaneous speed and positions, accordingly. </p>
 
-### 2.	Computer programming
+#### 2.	Computer programming
 The animation part of this project was implemented using Python with the Matplotlib package. The source code is available here. There are 4 major components:
 
 *   In the global scope, the simulation parameters are specified, such as the initial position, velocity, launching angle, mass, air resistance coefficient, and the Gravitational Constant. The drawing and text objects are also created and will updated during animation. 
@@ -129,7 +129,6 @@ The animation video is shown below. The trajectories with and without air resist
 <video width="640" height="640" controls>
 <source src="{{ "/assets/images/project1/Projectile_animation.mp4" | relative_url }}" type="video/mp4">
 </video> 
-<br>Figure 11 Animation of the 4 optimizers’ update paths from the starting point to the minimum loss. 
 </p>
 
 We observed a few differences between the two scenarios.
@@ -138,4 +137,6 @@ We observed a few differences between the two scenarios.
 *   With air resistance, the projectile loses mechanical energy, which was used to overcome the resistance and converted to heat.  
 
 ## Summary
-In this independent project, I explored the impact of air resistance on projectiles beyond what was covered in our AP physics classroom. This exploration involved in building a model based on Physics, solving differential equations using math, and making vivid animations using computer programming. The visualized results provide us a view and sense different from textbook. It is a fun and interesting project that anyone can do!
+In this independent project, I explored the impact of air resistance on projectiles beyond what was covered in our AP physics classroom. This exploration involved in building a model based on Physics, solving differential equations using math, and making vivid animations using computer programming. The visualized results provide us a view and sense different from textbook. It is a fun and interesting project that anyone can do! 
+
+<br/>
