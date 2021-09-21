@@ -18,11 +18,9 @@ In this project, I developed a bouncing ball game to illustrate the physics conc
 
 While there is still a lot of space for improvement from perspective of a computer game, the focus of this project is the simulation of motion, collision and the bouncing between the balls, between the balls and walls, and between the balls and bat, so that they would look realistic. This requires accurate calculation of the speeds and directions of each ball after collisions, which depends on their speeds and directions before the collision, depends on their masses and sizes, and depends on the collision type (ball-and-ball, ball-and-wall, ball-and-corner of bat, ball-and-sides of bat). Through the law of conservation of momentum and kinetic energy, which I learned in AP Physics, I was able to calculate such values.
 
-This game was implemented in Python and the source code is available here in GitHub.
+This game was implemented in Python.
 
 The class ballclass() is defined to hold ball states, such as the mass, size, location, speed with direction, etc. This class also has a few member methods to help handle the ball-bat collisions:
-
-The animation part of this project was implemented using Python with Matplotlib package. The source code is available here on GitHub. The major functions include:
 
 -   def Is_Ball_in_Box_Range_Simple(self, boxrect) checks whether the ball hits the bat (box).
 -   def Check_Ball_Hit_BoxTopLeftCorner (self, boxrect) checks whether the ball hits the top-left corner of the bat.
@@ -38,7 +36,9 @@ The main() function starts with the instantiation of 4 (by default) balls with m
 -   looping over each pair of balls to check if a collision occurs between them. If yes, compute the new speed and direction of both balls. 
 -   calling the blit() function from the PyGame package for each drawing object to refresh display at its new location.  
 
-Recorded Video Clip of Demo of the game
+
+<button class="button button1"><a href="https://github.com/felikemath/P3_Bouncing_Ball_Simulation_Game">View the Project on GitHub</a></button>
+
 
 ## <a name="_results"></a>Results - Recorded Video Clip of Demo of the game
 Here is an example of video clip of a game using 4 balls of different relative mass of 1.0, 1.0, 2.0 and 4.0. 

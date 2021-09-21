@@ -141,7 +141,7 @@ For the tasks in this project, the most important physics are Kepler's laws of p
 <p>The “real-time” distances from the spacecraft to Earth, Mars and Sun can be simply calculated based on their current locations. </p>
 
 #### 3. Computer programming
-The animation part of this project was implemented using Python with Matplotlib package. The source code is available here on GitHub. The major functions include:
+The animation part of this project was implemented using Python with Matplotlib package. The major functions include
 
 *   The generate_animation_points() function precomputes the x- and y-coordinates of Earth, Mars and the spacecraft for all animation frames using the equations derived above
 
@@ -150,6 +150,8 @@ The animation part of this project was implemented using Python with Matplotlib 
 *   The animate(i) function is the core part of animation to refresh the drawing and text objects. 
 
 *   The main() function calls animation.FuncAnimation() from the Matplotlib package to make animation, which repeatedly calls the animate(i) function above to refresh the display. It also saves the animation to video files. 
+
+<button class="button button1"><a href="https://github.com/felikemath/P2_Animation_of_Spacecraft_Trajectory">View the Project on GitHub</a></button>
 
 ## <a name="_results"></a>Results and Discussions
 Please see the animation video below. 

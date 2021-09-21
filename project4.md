@@ -48,7 +48,7 @@ The objectives of this projects include
 
 
 ##### _1.3 Implementation of building, training and saving the models_
-<p>The neuron networks and all supporting functions were implemented using Keras in the Tensorflow framework. Please see the source code here on GitHub.</p>
+<p>The neuron networks and all supporting functions were implemented using Keras in the Tensorflow framework. </p>
 
 <p>Four functions, build_basic_model(…), build_intermediate_model1(…), build_intermediate_model2(…) and build_advanced_model(…) were defined to build the 4 models, respectively</p>
 
@@ -59,30 +59,30 @@ The objectives of this projects include
 
 <p>The index() function renders and returns the index.html homepage that we want to display in the user’s browser when the user visit this website. </p>
 
-```ruby
+{% highlight python %}
 @app.route('/')
 def index():
-```
+{% endhighlight %}
 
 The changemodel() function sets which one of the 4 models to use for prediction when it receives the user’s request (transmitted via the POST method of http protocol) to use a different model. 
 
-```python
+{% highlight python %}
 @app.route('/changemodel/', methods=['POST'])
 def changemodel():
-```
+{% endhighlight %}
 
 The predict() function responds to the “predict” request (transmitted using the POST method of http protocol) when the user clicks the “Recognize” button the browser. The digit picture that the user draws in the browser is also transmitted together via the POST request, but encoded in byte string format and thus cannot be used directly by the model. Therefore, it calls a help function parseImageFromInternet(imgDataStr) to decode the data string and convert to the same format that was used for model training. The predicted output from the model will be transmitted back to the user’s browser.
 
-```python
+{% highlight python %}
 @app.route('/predict/', methods=['POST'])
 def predict():
-```
+{% endhighlight %}
 
 When this Python script is executed, first it loads the four pre-trained models from the previously saved HDF5 files. Then, it launches Flask application using
 
-```python
+{% highlight python %}
 app.run(host='192.168.1.100', port=8080)
-```
+{% endhighlight %}
 
 The host IP address above is just an example and should be changed to the actual IP address of the server running Flask.
 
@@ -94,8 +94,10 @@ The GUI design of the mobile webpage is shown in Figure 2. It consists of a drop
 <br>Figure 2 GUI design of the mobile web application. 
 </p> 
 
-The functionalities of such features are implemented using JavaScript, including those in the client side (such as drawing on the canvas object) and those handling communication between the server and client (such as the button click function). Please see the html file and the JavaScript file here and here in GitHub, respectively.
+<p>The functionalities of such features are implemented using JavaScript, including those in the client side (such as drawing on the canvas object) and those handling communication between the server and client (such as the button click function). Please see the html file and the JavaScript file here and here in GitHub, respectively.</p>
 
+
+<button class="button button1"><a href="https://github.com/felikemath/P4_AI_handwriting_recog_on_mobile">View the Project on GitHub</a></button>
 
 
 ## <a name="_results"></a>Results and Discussions
