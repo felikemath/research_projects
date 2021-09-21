@@ -154,7 +154,7 @@ The animation part of this project was implemented using Python with Matplotlib 
 <button class="button button1"><a href="https://github.com/felikemath/P2_Animation_of_Spacecraft_Trajectory">View the Project on GitHub</a></button>
 
 ## <a name="_results"></a>Results and Discussions
-Please see the animation video below. 
+The animation video is shown below. Please click the Replay button to view the video.
 
 <p align="center">
 <video width="760" height="760" controls>

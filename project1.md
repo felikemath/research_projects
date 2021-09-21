@@ -125,7 +125,7 @@ The animation part of this project was implemented using Python with the Matplot
 <button class="button button1"><a href="https://github.com/felikemath/P1_Animation_of_Projectile">View the Project on GitHub</a></button>
 
 ## <a name="_results"></a>Results and Discussions
-The animation video is shown below. The trajectories with and without air resistance are drawn in red and blue, respectively. 
+The animation video is shown below. The trajectories with and without air resistance are drawn in red and blue, respectively. Please click the Replay button to view the video.
 
 <p align="center">
 <video width="640" height="640" controls>

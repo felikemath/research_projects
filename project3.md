@@ -41,7 +41,7 @@ The main() function starts with the instantiation of 4 (by default) balls with m
 
 
 ## <a name="_results"></a>Results - Recorded Video Clip of Demo of the game
-Here is an example of video clip of a game using 4 balls of different relative mass of 1.0, 1.0, 2.0 and 4.0. 
+Here is an example of video clip of a game using 4 balls of different relative mass of 1.0, 1.0, 2.0 and 4.0. Please click the Replay button to view the video.
 
 <p align="center">
 <video width="760" height="760" controls>
