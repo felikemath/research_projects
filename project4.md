@@ -10,21 +10,21 @@ mathjax: true
 August, 2021
 
 ## Introduction
-In the Stanford Pre-Collegiate Summer Institutes for Artificial Intelligence program, I learnt the fundamentals of machine learning (ML) and deep learning (DL); in the _Tinovation Club_ of my high school, I learned how to build simple websites with HTML and CSS. Combining these skills, I was able to build an interesting demonstration that is educational and fun as well. In this project, I built several DL neuron network models for handwriting digit recognition and a webpage-based mobile application of these models, and compared accuracy performance between these models.
+In the Stanford Pre-Collegiate Summer Institutes for Artificial Intelligence program, I learnt the fundamentals of machine learning (ML) and deep learning (DL); in the _Tinovation Club_ of my high school, I learned how to build simple websites with HTML and CSS. Combining these skills, I was able to build an interesting demonstration that is educational and fun as well. In this project, I built several DL neural network models for handwriting digit recognition and a webpage-based mobile application of these models, and compared accuracy performance between these models.
 
 Click [**<span style="color:blue">here</span>**](#_results) to jump to see the result.
 
 ## Objectives 
 The objectives of this projects include
-*   building and training 4 neuron networks for recognition of handwriting digits, from basic to more advanced. 
+*   building and training 4 neural networks for recognition of handwriting digits, from basic to more advanced. 
 *   building backend service that run the trained model for prediction and communicates with frontend interface for input and output.
 *   building frontend webpage-based application that takes user’s handwriting and communicate with the backend service.
-*   comparing the accuracy performance of these neuron network models.
+*   comparing the accuracy performance of these neural network models.
 
 ## Methods
-#### 1.	The neuron network part
+#### 1.	The neural network part
 ##### _1.1 The models_
-<p>There have been many good examples and tutorials online of using neuron networks for recognition of handwriting digits. In this project, I built 4 convolutional neuron networks, named Basic, Intermediate I, Intermediate II and Advanced, respectively and relatively, to represent different architecture complexity and techniques used in these networks (Figure 1). More specifically,</p>
+<p>There have been many good examples and tutorials online of using neural networks for recognition of handwriting digits. In this project, I built 4 convolutional neural networks, named Basic, Intermediate I, Intermediate II and Advanced, respectively and relatively, to represent different architecture complexity and techniques used in these networks (Figure 1). More specifically,</p>
 
 *   The Basic network consists of only 2 convolution layers with 5x5 kernels and ReLU activator, each followed by a MaxPooling layer for down-sampling. After the convolution blocks, the network also includes a flatten layer, two Dense layers and a SoftMax layer to generate output. 
 *   The Intermediate-I network adds BatchNormalization layers after the convolution layers and the 1st Dense layer on top of the Basic network.
@@ -39,7 +39,7 @@ The objectives of this projects include
 
 <p align="center">
  <img src="{{ "/assets/images/project4/arch_of_4_models.png" | relative_url }}" style="border:solid; color:gray" width="800"> 
-<br>Figure 1 Architectures of the 4 neuron networks built in this projection. 
+<br>Figure 1 Architectures of the 4 neural networks built in this projection. 
 </p> 
 
 
@@ -48,7 +48,7 @@ The objectives of this projects include
 
 
 ##### _1.3 Implementation of building, training and saving the models_
-<p>The neuron networks and all supporting functions were implemented using Keras in the Tensorflow framework. </p>
+<p>The neural networks and all supporting functions were implemented using Keras in the Tensorflow framework. </p>
 
 <p>Four functions, build_basic_model(…), build_intermediate_model1(…), build_intermediate_model2(…) and build_advanced_model(…) were defined to build the 4 models, respectively</p>
 
@@ -190,7 +190,7 @@ The following figures show comparisons of the digit recognition results between 
 <br/>
 
 ## Summary
-In this project, I developed a complete mobile application of an AI-based handwriting digit recognition, including building 4 models of different complexities, training and saving the models, building the backend micro-web-server, and writing the frontend mobile application. Evaluation of these models demonstrated how the modules and techniques (such as BatchNormalization, DropOut, Convolution, Data Augmentation) play roles in neuron networks.
+In this project, I developed a complete mobile application of an AI-based handwriting digit recognition, including building 4 models of different complexities, training and saving the models, building the backend micro-web-server, and writing the frontend mobile application. Evaluation of these models demonstrated how the modules and techniques (such as BatchNormalization, DropOut, Convolution, Data Augmentation, etc.) play roles in deep learning neural networks.
 
 <br/>
 <br/>
