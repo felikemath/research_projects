@@ -22,21 +22,21 @@ While there is still a lot of space for improvement from perspective of a comput
 
 This game was implemented in Python.
 
-The class ballclass() is defined to hold ball states, such as the mass, size, location, speed with direction, etc. This class also has a few member methods to help handle the ball-bat collisions:
+The `class ballclass()` is defined to hold ball states, such as the mass, size, location, speed with direction, etc. This class also has a few member methods to help handle the ball-bat collisions:
 
--   def Is_Ball_in_Box_Range_Simple(self, boxrect) checks whether the ball hits the bat (box).
--   def Check_Ball_Hit_BoxTopLeftCorner (self, boxrect) checks whether the ball hits the top-left corner of the bat.
--   def Check_Ball_Hit_BoxTopRightCorner (self, boxrect) checks whether the ball hits the top-left corner of the bat.
--   def Calc_BallSpeed_on_BoxTopLeftCorner (self, boxrect, boxspeed) calculates the speed and direction of the ball after hitting and bouncing back from the top-left corner of the bat.
--   def Calc_BallSpeed_on_BoxTopRightCorner (self, boxrect, boxspeed) calculates the speed and direction of the ball after hitting and bouncing back from the top-right corner of the bat.
+-   `def Is_Ball_in_Box_Range_Simple(self, boxrect)` checks whether the ball hits the bat (box).
+-   `def Check_Ball_Hit_BoxTopLeftCorner(self, boxrect)` checks whether the ball hits the top-left corner of the bat.
+-   `def Check_Ball_Hit_BoxTopRightCorner(self, boxrect)` checks whether the ball hits the top-left corner of the bat.
+-   `def Calc_BallSpeed_on_BoxTopLeftCorner(self, boxrect, boxspeed)` calculates the speed and direction of the ball after hitting and bouncing back from the top-left corner of the bat.
+-   `def Calc_BallSpeed_on_BoxTopRightCorner(self, boxrect, boxspeed)` calculates the speed and direction of the ball after hitting and bouncing back from the top-right corner of the bat.
  
 
-The main() function starts with the instantiation of 4 (by default) balls with mass, initial speeds and locations. The game will progress through the “while True” loop until the player presses the “Esc” key or closes the game window. Main tasks handled inside the while loop include
+The `main()` function starts with the instantiation of 4 (by default) balls with mass, initial speeds and locations. The game will progress through the “while True” loop until the player presses the “_Esc_” key or closes the game window. The main tasks handled inside the while loop include
 
--   moving the bat left or right if the player presses the Left or Right Arrow key, respectively. Pressing the SHIFT key at the same time increases the speed.  
+-   moving the bat left or right if the player presses the _Left_ or _Right_ Arrow key, respectively. Pressing the _SHIFT_ key at the same time increases the speed.  
 -   looping over each ball to update its state based on its previous location and speed. If the ball would hit either a wall, a corner of the bat, or a side of the bat, compute its new speed to bounce back. 
 -   looping over each pair of balls to check if a collision occurs between them. If yes, compute the new speed and direction of both balls. 
--   calling the blit() function from the PyGame package for each drawing object to refresh display at its new location.  
+-   calling the `blit()` function from the _PyGame_ package for each drawing object to refresh display at its new location.  
 
 
 <button class="button button1"><a href="https://github.com/felikemath/P3_Bouncing_Ball_Simulation_Game">View the Project on GitHub</a></button>

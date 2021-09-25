@@ -114,15 +114,15 @@ It is well known that air resistance depends on the speed, shape and size of pro
 <p>The kinetic, potential, and total mechanic energies can be computed using the instantaneous speed and positions, accordingly. </p>
 
 #### 2.	Computer programming
-The animation part of this project was implemented using Python with the Matplotlib package. There are 4 major components:
+The animation part of this project was implemented using Python with the _Matplotlib_ package. There are 4 major components:
 
-*   In the global scope, the simulation parameters are specified, such as the initial position, velocity, launching angle, mass, air resistance coefficient, and the Gravitational Constant. The drawing and text objects are also created and will updated during animation. 
+*   In the global scope, the simulation parameters are specified, such as the initial position, velocity, launching angle, mass, air resistance coefficient, and the _Gravitational Constant_. The drawing and text objects are also created and will updated during animation. 
 
-*   The init() function to reset the drawing and text objects, as well as the intermediate variables. 
+*   The `init()` function to reset the drawing and text objects, as well as the intermediate variables. 
 
-*   The animate(i) function to compute the instantaneous quantities on-the-fly and update the drawing and text objects. 
+*   The `animate(i)` function to compute the instantaneous quantities on-the-fly and update the drawing and text objects. 
 
-*   The main() function calls animation.FuncAnimation() from the Matplotlib package to create the animation, which repeatedly calls the animate(i) function above to refresh the display. It also saves the animation to video files. 
+*   The `main()` function calls `animation.FuncAnimation()` from the Matplotlib package to create the animation, which repeatedly calls the `animate(i)` function above to refresh the display. It also saves the animation to video files. 
 
 <button class="button button1"><a href="https://github.com/felikemath/P1_Animation_of_Projectile">View the Project on GitHub</a></button>
 
