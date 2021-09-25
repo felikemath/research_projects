@@ -1,6 +1,8 @@
 ---
 layout: default
 mathjax: true
+show_viewon: true
+repolink: https://github.com/felikemath/P1_Animation_of_Projectile
 ---
 
 # <center><span style="color:darkblue">Animation of Projectile Motion with and without Air Resistance</span></center>

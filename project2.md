@@ -1,6 +1,8 @@
 ---
 layout: default
 mathjax: true
+show_viewon: true
+repolink: https://github.com/felikemath/P2_Animation_of_Spacecraft_Trajectory
 ---
 
 # <center><span style="color:darkblue">Animation of Earth-to-Mars Spacecraft Trajectory</span></center>

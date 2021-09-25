@@ -1,6 +1,8 @@
 ---
 layout: default
 mathjax: true
+show_viewon: true
+repolink: https://github.com/felikemath/P3_Bouncing_Ball_Simulation_Game
 ---
 
 # <center><span style="color:darkblue">Multi-Ball Bouncing Simulation and Game</span></center>

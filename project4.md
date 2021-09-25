@@ -1,6 +1,8 @@
 ---
 layout: default
 mathjax: true
+show_viewon: true
+repolink: https://github.com/felikemath/P4_AI_handwriting_recog_on_mobile
 ---
 
 # <center><span style="color:darkblue">Mobile Application of AI-based Handwriting Recognition</span></center>

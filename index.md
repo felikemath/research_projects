@@ -1,5 +1,6 @@
 ---
 layout: default
+show_viewon: false
 ---
 
 Welcome to my independent research project webpage!
