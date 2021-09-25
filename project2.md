@@ -12,7 +12,7 @@ repolink: https://github.com/felikemath/P2_Animation_of_Spacecraft_Trajectory
 June-July, 2021
 
 ## Introduction
-NASA’s successful landing of Perseverance Rover on Mars earlier this year inspired me to uncover the math and logic behind it. Our AP physics class covered the topics of Kepler's laws of planetary motion, but only briefly explained how they are applied to inter-planet spacecraft. In this project, I explored the physics behind the long journey of the earth-to-Mars spacecraft by making an animation of motions of the Earth and Mars, together with the trajectory of the spacecraft launching from Earth and finally meeting Mars.
+NASA’s successful landing of Perseverance Rover on Mars earlier this year inspired me to uncover the math and logic behind it. Our AP physics class covered the topics of Kepler's laws of planetary motion, but only briefly explained how they are applied to inter-planet spacecraft. In this project, I explored the physics behind the long journey of the Earth-to-Mars spacecraft by making an animation of motions of the Earth and Mars, together with the trajectory of the spacecraft launching from Earth and finally meeting Mars.
 
 Click [**<span style="color:blue">here</span>**](#_results) to jump to see the animation result.
 
@@ -30,7 +30,7 @@ With different launch speed, the spacecraft can fly along a variety of elliptica
 
 <p align="center">
  <img src="{{ "/assets/images/project2/orbits.png" | relative_url }}" style="border:solid; color:gray" width="350"> 
-<br>Figure 1 Illustration of the orbits of the earth, mars and the earth-to-mars spacecraft. 
+<br>Figure 1 Illustration of the orbits of Earth, Mars and the Earth-to-Mars spacecraft. 
 </p> 
 
 For the tasks in this project, the most important physics are Kepler's laws of planetary motion
