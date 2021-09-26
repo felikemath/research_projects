@@ -2,46 +2,83 @@
 ---
 
 @import "{{ site.theme }}";
-html { background: #fff; }
-section { background: #fff; }
-.wrapper { max-width: 860px; width: 860px; margin: 0 auto; }
+html {
+  background: #fff;
+}
+section {
+  background: #fff;
+}
 
-pre { background: #E3EBEF; }
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-footer a {color: #007bff; font-weight: bold;}
-footer {color: #212529}
+.subtitle {
+  max-width: 70%;
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    max-width: 860px;
+    width: 860px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .banner-image {
+    display: none;
+  }
+  .subtitle {
+    max-width: 98%;
+  }
+}
+
+pre {
+  background: #e3ebef;
+}
+
+footer a {
+  color: #007bff;
+  font-weight: bold;
+}
+footer {
+  color: #212529;
+}
 .column {
-    float: left;
-    width: 25%;
-    padding: 5px;
+  float: left;
+  width: 25%;
+  padding: 5px;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .button1 {
-    background-color: rgb(220, 220, 220); 
-    color: black; 
-    border: 2px solid #008CBA;
+  background-color: rgb(220, 220, 220);
+  color: black;
+  border: 2px solid #008cba;
 }
-  
+
 .button1:hover {
-    background-color: #78d3f1;
-    color: white;
+  background-color: #78d3f1;
+  color: white;
 }
